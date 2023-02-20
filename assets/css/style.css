@@ -211,3 +211,86 @@ footer {
     list-style: none;
     color: #4d5156;
 }
+
+@media (max-width:600px) {
+    body{
+        gap:10px;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    .container2 {
+        width: auto;
+        justify-content: center;
+    }
+
+    .header {
+        max-width: 400px;
+        min-width: 300px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .starHeader {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: auto;
+    }
+
+    .inputSearch {
+        flex: 0;
+        max-width: 200px;
+    }
+
+    .nlsearch {
+        display: none;
+    }
+
+   
+
+    .hsearch {
+        min-width: 200px;
+        max-width: 300px;
+        height:35px;
+    }
+
+    .endHeader {
+        display: none;
+    }
+
+    .nextNH {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-right: 0px;
+    }
+
+    .navNH {
+        font-size: 10px;
+    }
+
+    .navNHMAX {
+        padding-left: 0;
+    }
+
+    .resultNumber {
+        font-size: 12px;
+    }
+
+    .allResultados {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .result {
+        justify-content: center;
+        max-width: 425px;
+    }
+
+    .footer {
+        align-items: center;
+    }
+}
