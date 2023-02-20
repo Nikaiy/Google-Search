@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -131,6 +132,7 @@ input:focus {
     gap: 30px;
     color: #5f6368;
     padding-right: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navNHMAX {
@@ -192,6 +194,7 @@ footer {
     gap: 10px;
     padding-top: 12px;
     padding-bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .fFooter {
