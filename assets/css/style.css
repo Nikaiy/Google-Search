@@ -15,30 +15,35 @@ a {
 }
 
 .container {
-    width: 1480px;
+    width: 100%;
+    max-width: 1300px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 20px;
 }
 
 .container2 {
-   width: 1150px;
-   display: flex;
-   justify-content: space-between; 
+    width: 100%;
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 20px;
 }
 
 .header {
     width: 100%;
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content:space-between;
     height: 69px;
 }
 
 .starHeader {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 800px;
+    justify-content: space-around;
+    gap: 50px;
+    max-width: 800px;
 }
 
 .hlogo img {
@@ -47,10 +52,10 @@ a {
 }
 
 .hsearch {
+    width: 540px;
     display: flex;
     align-items: center;
     height: 45px;
-    width: 650px;
     border-radius: 20px;
     background-color: #ffffff;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.192);
@@ -66,7 +71,7 @@ a {
 }
 
 .inputSearch input {
-    width: 320px;
+   max-width: 600px;
 }
 
 input:focus {
@@ -188,7 +193,8 @@ footer {
 .footer {
     display: flex;
     flex-direction: column;
-    width: 1150px;
+    width: 100%;
+    max-width: 1150px;
     height: 75.5px;
     justify-content: center;
     gap: 10px;
